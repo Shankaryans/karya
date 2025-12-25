@@ -66,12 +66,11 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(
-                  Icons.check_circle,
-                  color: Theme.of(context).colorScheme.primary,
+                Image.asset(
+                  'assets/images/vertical_logo.png',
+                  height: 80,
+                  width: 200,
                 ),
-                const SizedBox(width: 12),
-                const Text('To-Do List'),
               ],
             ),
           ),
