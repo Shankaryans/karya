@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             // Use the navigatorKey from NotificationService so alerts can be shown from TaskProvider
             navigatorKey: NotificationService.instance.navigatorKey,
-            title: 'To-Do List',
+            title: 'Kārya',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
               useMaterial3: true,
